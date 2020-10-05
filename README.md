@@ -26,7 +26,7 @@ cd web-crawler-java
 Right click on project and run as java application.
 
 # Check on console for result
-Sample Output:
+# Sample Output:
 **Visiting** Received web page at https://www.google.com/
 Found (23) links
 Searching for the word information...

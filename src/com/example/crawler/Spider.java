@@ -37,8 +37,7 @@ public class Spider {
 	          {
 	              currentUrl = this.nextUrl();
 	          }
-	          leg.crawl(currentUrl); // Lots of stuff happening here. Look at the crawl method in
-	                                 // SpiderLeg
+	          leg.crawl(currentUrl);
 	          boolean success = leg.searchForWord(searchWord);
 	          if(success)
 	          {
